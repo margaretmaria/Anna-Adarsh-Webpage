@@ -1,5 +1,3 @@
-
-
 body {
 font: 76% Tahoma,Verdana,Arial,sans-serif;
 line-height: 1.5em;
@@ -8,14 +6,29 @@ color: #303030;
 background: #e8eaec;
 }
 
+* {
+margin: 0;
+padding: 0;
+}
+
+img[Attributes Style] {
+width: 150px;
+}
+
 #container {
 width: 760px;
 margin: 20px auto;
-padding: 0px 0;
+padding: 1px 0;
 text-align: left;
 background: #ffffff;
 color: #303030;
 border: 2px solid #a0a0a0;
+}
+
+
+* {
+margin: 0;
+padding: 0;
 }
 
 #header {
@@ -26,10 +39,23 @@ background: #467aa7;
 color: #ffffff;
 }
 
-div {
-display: block;
+* {
+margin: 0;
+padding: 0;
 }
-
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
 #navigation {
 height: 2.2em;
 line-height: 2.2em;
@@ -44,24 +70,102 @@ margin: 0;
 padding: 0;
 }
 
-
-a:-webkit-any-link {
-color: -webkit-link;
-text-decoration: underline;
-cursor: auto;
+#navigation li a {
+display: block;
+padding: 0 10px;
+font-size: 0.8em;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+background-color: inherit;
+color: #ffffff;
 }
 
-ul, menu, dir {
+#navigation .selected, #navigation a:hover {
+background: #80b0da;
+color: #ffffff;
+text-decoration: none;
+}
+
+#content {
+float: left;
+width: 530px;
+padding: 20px 0 0 20px;
+font-size: 1.1em;
+}
+
+#subcontent {
+	float: right;
+}
+
+#header h1 {
+padding: 35px 0 0 20px;
+font-size: 2.4em;
+background-color: inherit;
+color: #ffffff;
+letter-spacing: -2px;
+font-weight: normal;
+}
+* {
+margin: 0;
+padding: 0;
+}
+
+#navigation {
+height: 2.2em;
+line-height: 2.2em;
+width: 758px;
+margin: 0 1px;
+background: #578bb8;
+color: #ffffff;
+margin-top: 0px;
+}
+
+
+* {
+margin: 0;
+padding: 0;
+}
+
+h4 {
 display: block;
-list-style-type: disc;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
+-webkit-margin-before: 1.33em;
+-webkit-margin-after: 1.33em;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
--webkit-padding-start: 40px;
+font-weight: bold;
 }
 
+
+
+
+#navigation li {
+float: left;
+list-style-type: none;
+border-right: 1px solid #ffffff;
+white-space: nowrap;
+}
+
+#subcontent p {
+margin: 0 0 16px 0;
+}
+#subcontent {
+	float: right;
+}
+
+#header h2 {
+margin: 10px 0 0 40px;
+font-size: 1.4em;
+background-color: inherit;
+color: #f0f2f4;
+letter-spacing: -1px;
+font-weight: normal;
+}
 li {
 display: list-item;
 text-align: -webkit-match-parent;
 }
+ul {
+	margin-top: 0px;
+}
+
