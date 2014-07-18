@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="body.css" title="suwetha" media="screen,projection" />
+</head>
+<body> 
+
+
+
+<div id="container">
+	<div id="header">
+		<h1>Suwetha</h1>
+		<h2> Professor, EE &amp; CS, Chennai University</h2>
+	</div>
+
+	<div id="navigation">
+		<ul>
+			<li class="selected"><a href="">Home</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/research.html">Research</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/teaching.html">Teaching</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/papers.html">Publications</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/software.html">Software</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/students.html">Students</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/links.html">Funfdhg</a></li>
+			<li><a href="http://csl.stanford.edu/~christos/contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+
+	
+	<div id="footer">
+		<p>© 2014 Suwetha | Original design by Andreas </p>
+	</div>
+
+</div>
+
+</body>
+
+</html>

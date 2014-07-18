@@ -1,0 +1,29 @@
+body {
+font: 76% Tahoma,Verdana,Arial,sans-serif;
+line-height: 1.5em;
+text-align: center;
+color: #303030;
+background: #e8eaec;
+}
+
+img[Attributes Style] {
+width: 150px;
+}
+
+#container {
+width: 760px;
+margin: 20px auto;
+padding: 1px 0;
+text-align: left;
+background: #ffffff;
+color: #303030;
+border: 2px solid #a0a0a0;
+}
+
+#header {
+height: 110px;
+width: 758px;
+margin: 0 1px 1px 1px;
+background: #006666;
+color: #ffffff;
+}
