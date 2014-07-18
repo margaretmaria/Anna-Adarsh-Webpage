@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="body.css" title="suwetha" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="res1.css" title="suwetha" media="screen,projection" />
 </head>
 <body> 
 
@@ -26,13 +26,47 @@
 		</ul>
 	</div>
 
+<div id="main">
 
-	
-	<div id="footer">
+<h4>The Cascade Project (2002 - 05)</h4>
+<p>The Cray Cascade project targeted a practical PetaFlop supercomputing
+system for the national security and industrial user community in the
+2007 – 2010 timeframe. The effort included researchers from Cray,
+Stanford, Caltech, and Notre Dame and was funded by DARPA IPTO within
+the HPCS program. Our work focused the development of a scalable
+micro-architecture for vector processors as well as flexible support
+for data-level and thread-level parallelism in large-scale
+supercomputing systems.</p>
+
+</div>
+
+<div id="subcontent">
+<div class="small box">
+		I am broadly interested in <strong>Computer Systems Architecture</strong>, the hardware, software, and
+		interactions between the two. The focus on my recent
+		work has been on resource efficiency, large-scale
+		parallelism, parallelism, and security. I also like
+		building and debugging full-system prototypes of all types.
+		</div>
+
+		  <h4>Shortcuts</h4>
+		<ul class="menublock">
+			<li><a href="#current">Current projects</a></li>
+			<li><a href="#completed">Completed projects</a></li>
+			<li><a href="#prototype">Prototype systems</a></li>
+			<li><a href="software.html">Released software</a></li>
+			<li><a href="papers.html">Publications</a></li>
+		</ul>
+</div>
+<div id="footer">
 		<p>© 2014 Suwetha | Original design by Andreas </p>
 	</div>
 
 </div>
+	
+	
+
+
 
 </body>
 

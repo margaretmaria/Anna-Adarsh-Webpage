@@ -27,3 +27,99 @@ margin: 0 1px 1px 1px;
 background: #006666;
 color: #ffffff;
 }
+
+
+#header h1 {
+padding: 35px 0 0 20px;
+font-size: 2.4em;
+background-color: inherit;
+color: #ffffff;
+letter-spacing: -2px;
+font-weight: normal;
+}
+
+
+#header h2 {
+margin: 10px 0 0 40px;
+font-size: 1.4em;
+background-color: inherit;
+color: #f0f2f4;
+letter-spacing: -1px;
+font-weight: normal;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+li {
+
+display: list-item;
+text-align: -webkit-match-parent;
+}
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 1px;
+}
+
+#navigation {
+height: 3.0em;
+line-height: 3.0em;
+width: 758px;
+margin: 0 1px;
+background: #006666;
+color: #006666;
+padding-right: 0px;
+padding-top: 1px;
+}
+
+
+#navigation li {
+float: left;
+list-style-type: none;
+border-right: 1px solid #ffffff;
+white-space: nowrap;
+}
+
+#navigation li a {
+display: block;
+padding: 0 10px;
+font-size: 0.8em;
+font-weight: normal;
+text-transform: uppercase;
+text-decoration: none;
+background-color: inherit;
+color: #ffffff;
+
+}
+
+#navigation .selected, #navigation a:hover {
+background: #009999;
+color: #ffffff;
+text-decoration: none;
+}
+
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+ul {
+	margin-top: 0px;
+}
+
+#main{
+	float: left;
+}
+#subcontent {
+float: right;
+width: 170px;
+padding: 20px 20px 10px 0;
+line-height: 1.4em;
+}
