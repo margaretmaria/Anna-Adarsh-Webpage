@@ -114,12 +114,24 @@ ul {
 	margin-top: 0px;
 }
 
-#main{
-	float: left;
-}
 #subcontent {
 float: right;
 width: 170px;
 padding: 20px 20px 10px 0;
 line-height: 1.4em;
+}
+
+#main {
+float: left;
+width: 530px;
+padding: 20px 0 0 20px;
+font-size: 1.1em;
+}
+
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
 }

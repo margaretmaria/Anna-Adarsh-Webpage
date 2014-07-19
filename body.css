@@ -28,10 +28,6 @@ background: #006666;
 color: #ffffff;
 }
 
-* {
-margin: 0;
-padding: 0;
-}
 li {
 
 display: list-item;
@@ -59,10 +55,6 @@ padding-right: 0px;
 padding-top: 1px;
 }
 
-* {
-margin: 0;
-padding: 0;
-}
 
 #navigation li a {
 display: block;
@@ -124,7 +116,7 @@ margin: 0 0 16px 0;
 
 }
 
-#subcontent {
+#subcontent{
 float: right;
 width: 170px;
 padding: 20px 20px 10px 0;
@@ -140,6 +132,7 @@ color: #f0f2f4;
 letter-spacing: -1px;
 font-weight: normal;
 }
+
 li {
 display: list-item;
 text-align: -webkit-match-parent;

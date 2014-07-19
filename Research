@@ -38,6 +38,45 @@ micro-architecture for vector processors as well as flexible support
 for data-level and thread-level parallelism in large-scale
 supercomputing systems.</p>
 
+  <h4>Pervasive Parallelism</h4>
+	  <p> The <a href="http://ppl.stanford.edu" >Pervasive Parallelism Lab (PPL)</a> is developing
+		the hardware and software infrastructure for scalable
+		parallel computing. The key idea is to use domain
+		specific languages to simplify parallel programming
+		and extract the concurrency and locality information
+		necessary to map an application on a highly parallel
+		system. PPL is a multi-faculty effort. I am active in
+		the areas of architecture, runtime environments, and
+		operating systems. 
+	  </p>
+
+	  <h4>Secure Systems (2006-2010) </h4> <p> We are using tagged memories to
+	  create robust, high-performance frameworks for software security. <a
+	   href="http://raksha.stanford.edu">Raksha</a> provides
+	  hardware support for dynamic information ﬂow tracking (DIFT)
+	  in order to protect deployed user-level programs and the
+	  operating systems from attacks ranging from buffer overflow
+	  to SQL injections.  Loki implements fine-grain,
+	  protection for physical memory in order to reduce the
+	  trusted code base of <a href="http://www.scs.stanford.edu/histar/" >HiStar</a>, an operating system that	  prevents information leaks. Our work ranges from hardware
+	  support to security policies and includes the development of
+	  full-system prototypes. </p>
+
+
+<h4>The Cascade Project (2002 - 05)</h4>
+<p>The <a href="http://www.cray.com"
+>Cray</a> <a
+ href="http://investors.cray.com/phoenix.zhtml?c=98390&p=irol-newsArticle&ID=934559&highlight"
+>Cascade</a> project targeted a practical PetaFlop supercomputing
+system for the national security and industrial user community in the
+2007 – 2010 timeframe. The effort included researchers from Cray,
+Stanford, Caltech, and Notre Dame and was funded by DARPA IPTO within
+the HPCS program. Our work focused the development of a scalable
+micro-architecture for vector processors as well as flexible support
+for data-level and thread-level parallelism in large-scale
+supercomputing systems.</p>
+
+
 </div>
 
 <div id="subcontent">
@@ -57,9 +96,10 @@ supercomputing systems.</p>
 			<li><a href="software.html">Released software</a></li>
 			<li><a href="papers.html">Publications</a></li>
 		</ul>
+
 </div>
 <div id="footer">
-		<p>© 2014 Suwetha | Original design by Andreas </p>
+		<p> © 2014 Suwetha | Original design by Andreas </p>
 	</div>
 
 </div>
