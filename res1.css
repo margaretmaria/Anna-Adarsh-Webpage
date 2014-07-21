@@ -10,6 +10,7 @@ img[Attributes Style] {
 width: 150px;
 }
 
+
 #container {
 width: 760px;
 margin: 20px auto;
@@ -20,6 +21,11 @@ color: #303030;
 border: 2px solid #a0a0a0;
 }
 
+* {
+margin: 0;
+padding: 0;
+}
+
 #header {
 height: 110px;
 width: 758px;
@@ -27,7 +33,6 @@ margin: 0 1px 1px 1px;
 background: #006666;
 color: #ffffff;
 }
-
 
 #header h1 {
 padding: 35px 0 0 20px;
@@ -46,27 +51,6 @@ background-color: inherit;
 color: #f0f2f4;
 letter-spacing: -1px;
 font-weight: normal;
-}
-
-* {
-margin: 0;
-padding: 0;
-}
-
-li {
-
-display: list-item;
-text-align: -webkit-match-parent;
-}
-
-ul, menu, dir {
-display: block;
-list-style-type: disc;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
--webkit-padding-start: 1px;
 }
 
 #navigation {
@@ -114,18 +98,18 @@ ul {
 	margin-top: 0px;
 }
 
-#subcontent {
-float: right;
-width: 170px;
-padding: 20px 20px 10px 0;
-line-height: 1.4em;
-}
-
 #main {
 float: left;
 width: 530px;
 padding: 20px 0 0 20px;
 font-size: 1.1em;
+}
+
+#subcontent {
+float: right;
+width: 170px;
+padding: 20px 20px 10px 0;
+line-height: 1.4em;
 }
 
 p {
@@ -135,3 +119,17 @@ display: block;
 -webkit-margin-start: 0px;
 -webkit-margin-end: 0px;
 }
+
+#footer {
+clear: both;
+width: 758px;
+padding: 5px 0;
+margin: 0 1px;
+font-size: 0.9em;
+color: #f0f0f0;
+background: #467aa7;
+}
+
+
+
+
