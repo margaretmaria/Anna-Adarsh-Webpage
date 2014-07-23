@@ -75,6 +75,19 @@ text-decoration: none;
 background-color: inherit;
 }
 
+.box {
+margin: 0 0 20px 0;
+padding: 10px;
+border: 1px solid #c0c0c0;
+background-color: #fafbfc;
+color: #505050;
+line-height: 1.5em;
+}
+
+.small {
+font-size: 0.9em;
+}
+
 #navigation .selected, #navigation a:hover {
 background: #009999;
 color: #ffffff;
