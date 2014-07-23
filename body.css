@@ -68,6 +68,13 @@ color: #ffffff;
 
 }
 
+a {
+color: #467aa7;
+font-weight: bold;
+text-decoration: none;
+background-color: inherit;
+}
+
 #navigation .selected, #navigation a:hover {
 background: #009999;
 color: #ffffff;
