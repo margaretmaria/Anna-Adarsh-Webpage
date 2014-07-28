@@ -99,6 +99,11 @@ ul {
 }
 
 
+.menublock {
+margin: 0 0 20px 8px;
+font-size: 0.9em;
+}
+
 #content {
 float: left;
 width: 530px;
@@ -113,6 +118,18 @@ padding: 20px 20px 10px 0;
 line-height: 1.4em;
 }
 
+.box {
+margin: 0 0 20px 0;
+padding: 10px;
+border: 1px solid #c0c0c0;
+background-color: #fafbfc;
+color: #505050;
+line-height: 1.5em;
+}
+
+.small {
+font-size: 0.9em;
+}
 
 #footer {
 clear: both;
