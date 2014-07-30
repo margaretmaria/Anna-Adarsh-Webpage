@@ -26,6 +26,7 @@ width: 758px;
 margin: 0 1px 1px 1px;
 background: #006666;
 color: #ffffff;
+
 }
 
 li {
@@ -108,6 +109,7 @@ background-color: inherit;
 color: #ffffff;
 letter-spacing: -2px;
 font-weight: normal;
+
 }
 * {
 margin: 0;
@@ -145,6 +147,7 @@ line-height: 1.4em;
 
 
 #header h2 {
+
 margin: 10px 0 0 40px;
 font-size: 1.4em;
 background-color: inherit;
