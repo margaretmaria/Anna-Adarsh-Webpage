@@ -137,3 +137,7 @@ line-height: 1.5em;
 .small {
 font-size: 0.9em;
 }
+
+#content ul, #content ol {
+margin: 0 5px 16px 35px;
+}
