@@ -24,9 +24,8 @@ border: 2px solid #a0a0a0;
 height: 110px;
 width: 758px;
 margin: 0 1px 1px 1px;
-background: #006666;
+background: #000064;
 color: #ffffff;
-
 }
 
 li {
@@ -50,7 +49,7 @@ height: 3.0em;
 line-height: 3.0em;
 width: 758px;
 margin: 0 1px;
-background: #006666;
+background: #000064;
 color: #006666;
 padding-right: 0px;
 padding-top: 1px;
@@ -90,7 +89,7 @@ font-size: 0.9em;
 }
 
 #navigation .selected, #navigation a:hover {
-background: #009999;
+background: #4D4DB8;
 color: #ffffff;
 text-decoration: none;
 }
@@ -160,6 +159,7 @@ li {
 display: list-item;
 text-align: -webkit-match-parent;
 }
+
 ul {
 	margin-top: 0px;
 }
@@ -172,5 +172,5 @@ padding: 5px 0;
 margin: 0 1px;
 font-size: 0.9em;
 color: #f0f0f0;
-background: #006666;
+background: #000064;
 }
