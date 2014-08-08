@@ -164,65 +164,17 @@ line-height: 1.5em;
 .small {
 font-size: 0.9em;
 }
-/*
 
-
------------------------------------------------------------------*/
-.course_listing {
-	width:708px;
-	border:solid 1px #bbc1c4;
-	background-color:#fafafa;
+/*----------------------------------------------------------------*/
+table {
+text-align: left;
+border-collapse: collapse;
+margin-left: 32px;
+width: 90%;
+border: 1px solid #cccccc;
 }
-ul.listheading {
-	font-weight:bold;
-	background-color:#f4ffd0;
-	color:#08387f;
-	border-bottom:solid 1px #bbc1c4;
-	height:26px;
-	line-height:26px;
-}
-.course_listing li {
-	float:left;
-	border-right:solid 1px #bbc1c4;
-}
-.course_listing li.code {
-	width:83px;
-	text-align:center;
-}
-.course_listing li.coursename {
-	width:252px;
-	padding-left:59px;
-}
-.course_listing li.time {
-	width:122px;
-	padding-left:13px;
-}
-.course_listing li.location {
-	width:105px;
-	padding-left:13px;
-}
-.course_listing li.instructor {
-	width:90px;
-	padding-left:13px;
-	border:none!important;
-}
-ul.courselisting {
-	float:left;
-	width:708px;
-	border-bottom:solid 1px #bbc1c4;
-}
-ul.courselisting li {
-	float:left;
-	padding:13px 0;
-}
-.course_listing li.coursename a {
-	color:#08387f;
-}
-.course_listing li a {
-	text-decoration:underline
-}
-.listingblock {
-	width:710px;
-	float:left;
-	padding-bottom:21px;
+table td, th {
+border: 1px solid #cccccc;
+vertical-align: top;
+padding: 3px 6px 3px 6px;
 }
