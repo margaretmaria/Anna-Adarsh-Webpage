@@ -168,21 +168,34 @@ font-size: 0.9em;
 /*----------------------------------------------------------------*/
 table {
 text-align: left;
+font-size: 1.0em;
+
 border-collapse: collapse;
-margin-left: 32px;
-width: 90%;
+margin-left: 0px;
+margin-right: 10px;
+width: 520px;
 border: 1px solid #cccccc;
 }
-
+tbody {
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+font-size: 0.9em;
+}
+tr {
+display: table-row;
+vertical-align: inherit;
+border-color: inherit;
+}
 table td, th {
 border: 1px solid #cccccc;
 vertical-align: top;
-padding: 3px 6px 3px 6px;
+padding: 1px 1px 1px 1px;
+white-space: nowrap;
+}
+strong, b {
+font-weight: bold;
 }
 
-.schedule{
-	width: 530px;
-padding: 20px 0 0 20px;
-font-size: 1.1em;
-	
-}
+
+
