@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="signup.css" title="Sundaresan"  />
+<script type="text/javascript" src="js/signup.js"></script>
 </head>
 <body> 
 <div id="container">
@@ -22,10 +23,53 @@
 		</ul>
 	</div>
 
+
+
+
 	<div id="content">
 
 
-<table width="800" border="1">
+  <form action="/html/tags/html_form_tag_action.cfm" method="get">
+<fieldset>
+<legend>Your Details</legend>
+
+<table cellpadding="5" cellspacing="5">
+  <tr>
+    <td><label for="first_name">First Name</label></td>
+    <td>:</td>
+    <td><input type="text" name="first_name" value="" maxlength="50" /></td>
+  </tr>
+  <tr>
+    <td><label for="last_name">Last Name</label></td>
+    <td>:</td>
+    <td><input type="text" name="last_name" value="" maxlength="50" /></td>
+  </tr>
+  <tr>
+    <td><label for="user_name">User Name</label></td>
+    <td>:</td>
+    <td><input type="text" name="user_name" value="" maxlength="15" /></td>
+  </tr>
+  <tr>
+    <td><label for="password">Password</label></td>
+    <td>:</td>
+    <td><input type="password" name="password" value="" maxlength="15" /></td>
+  </tr>
+  <tr>
+    <td><label for="cpassword">Password</label></td>
+    <td>:</td>
+    <td><input type="password" name="cpassword" value="" maxlength="15" /></td>
+  </tr>
+  </table>
+
+
+<input type="button" value="Signup" onclick="signup()"/>
+
+</fieldset>
+</form>
+
+</div>
+
+   <table width="800" border="1">
 <tbody>
   <tr>
     <th width="137" scope="col">Date of presentation</th>
@@ -113,8 +157,8 @@
 <input type="file" name="uploadField" />
 </form></td>
   </tr></tbody>
-</table>
-	</div>
+</table>  
+	
 	
 	<div id="footer">
 		<p>© 2014 Sunny | Original design by Margaret </p>
