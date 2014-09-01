@@ -1,5 +1,5 @@
 function signup(){
-	/*var firstname = document.getElementsByName('first_name')[0].value;
+	var firstname = document.getElementsByName('first_name')[0].value;
 	var lastname = document.getElementsByName('last_name')[0].value;
 	var username = document.getElementsByName('user_name')[0].value;
 	var password = document.getElementsByName('password')[0].value;
@@ -16,7 +16,7 @@ function signup(){
 		alert("Password doesn't mathc");
 	}
 console.log(userDetail);
-console.log(userDetails);*/
+console.log(userDetails);
 
 
 test++;
@@ -36,5 +36,4 @@ lastname : "",
 username : "",
 password : "",
 cpassword : ""
-
 }
